@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Arduino build files
+*.hex
+*.elf
+*.eep
+*.bin
+
+# Temporary files
+*.log
