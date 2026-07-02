@@ -67,27 +67,13 @@
 
 ---
 
-# Programming Method
+## Programming
 
-Unlike a standard Arduino Uno project, this hardware uses a **standalone ATmega328P**.
+The standalone ATmega328P was programmed using an Arduino Uno configured as an ISP programmer.
 
-The firmware was uploaded using an **Arduino Uno configured as an ISP (In-System Programmer)**.
+📖 See the complete programming guide here:
 
-Development workflow:
-
-```
-Arduino IDE
-      │
-      ▼
-Arduino Uno (ArduinoISP)
-      │
-      ▼
-Standalone ATmega328P
-```
-
-This approach provides experience working directly with AVR microcontrollers without relying on a complete Arduino development board.
-
----
+- [Programming Guide](docs/programming.md)
 
 # Hardware Architecture
 
